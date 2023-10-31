@@ -29,3 +29,9 @@ local c1 = Color Color.new(5, 20, 5)
 --basic green 
 Void screen.drawFillRect(screen_up, x0, y0, x1, y1, c1)
 
+--spawning player and position
+Void screen.blit(screen_up, x, y, image, [, sourcex, sourcey] [, width, height])	
+
+--character
+i1 = Image.load(path, destination)
+
