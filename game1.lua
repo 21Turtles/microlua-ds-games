@@ -30,8 +30,23 @@ local c1 = Color Color.new(5, 20, 5)
 Void screen.drawFillRect(screen_up, x0, y0, x1, y1, c1)
 
 --spawning player and position
-Void screen.blit(screen_up, x, y, image, [, sourcex, sourcey] [, width, height])	
+Void screen.blit(screen_up, x, y, i1, [, sourcex, sourcey] [, width, height])	
+	
 
 --character
-i1 = Image.load(path, destination)
+i1 = Image.load(./, destination)
+		for i = 1 do
+	if move-up = 1 do
+	
+	end
+	if move-down = 1 do
+	
+	end
+	if move-left = 1 do
+	
+	end
+	if move-right = 1 do
+	
+	end
+end
 
