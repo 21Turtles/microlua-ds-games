@@ -37,7 +37,7 @@ Void screen.blit(screen_up, x, y, i1, [, sourcex, sourcey] [, width, height])
 i1 = Image.load(./, destination)
 		for i = 1 do
 	if move-up = 1 do
-	
+	i1
 	end
 	if move-down = 1 do
 	
